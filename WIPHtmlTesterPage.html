@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>J-Forum</title>
+  <link rel = "stylesheet" type = "text/css" href = "/jamesStuff/page/jstyle.css">
+  <link rel="stylesheet" href="../../jonathanstuff/page/jstyle.css">
+</head>
+
+<body>
+<title> J Forum</title>
+<h1 id="header">dʒeɪ</h1>
+<div class="main">
+  <textarea id="text" rows="10" cols="50"></textarea>
+  <!-- side bar -->
+  <div class="sidebar">
+    <button id="darkbutton" onclick="DarkToggle()">Dark Toggle</button>
+    <a id="search" href="#">SEARCH</a>
+    <a id="save" href="#">SAVE</a>
+    <form id="keybox">
+      <label id="keyboxHeader" for="keyBox">Key:</label>
+      <input id="enterkey" type="text" name="key box">
+    </form>
+  </div>
+
+  <div class="sidebar2">
+    <b href="#">DarkToggle</b>
+    <b href="#">Tool 2</b>
+    <b href="#">Tool 3</b>
+  </div>
+
+</div>
+<script>
+function DarkToggle() {
+  const element = document.body;
+  // Toggles between light and dark mode and buttons
+  element.classList.toggle("lightMode");
+}
+</script>
+</body>
+</html>
