@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ENG">
     <head>
@@ -34,7 +33,7 @@
     <body>
     <H1>J-FORUM</H1>
     <!-- Text box that fills entire page with a submit button -->
-    <form action="frontpage.html" method="post">
+    <form action="frontpage.php" method="post">
         <label>
             <textarea
                     name="text"
